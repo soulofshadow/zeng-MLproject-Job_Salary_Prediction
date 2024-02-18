@@ -38,9 +38,15 @@ The main dataset consists of a large number of rows representing individual job 
 4. We used a Transformer model to embed the text for better capture the semantic similarity between vocabulary and the complex characteristics of the learning text.
 5. We training a MLP on top for predicting our target 'SalaryNormalised' value.
 
+## Models
+
+I tested with two ways: regression and classification.
+for regression, the NN's out put dimension is 1 which will use nn.L1loss(MAE) to update.
+for classification, the salary will first divide into K intervals, then use a softmax to get final output.
+
 ## Results
 
-I got final result at around 6300 MAE loss, which would be around 46th on the leaderboard. However, claiming that is not completely valid cause competition does not allow submissions now nor does it give out the true labels of the test data, the loss which I get is split 20% of train data as test data at the start.
+I got final result at around 5998 MAE loss, which would be around 37th on the leaderboard. However, claiming that is not completely valid cause competition does not allow submissions now nor does it give out the true labels of the test data, the loss which I get is split 20% of train data as test data at the start.
 
 
 
