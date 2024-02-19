@@ -46,7 +46,7 @@ for classification, the salary will first divide into K intervals, then use a so
 
 ## Results
 
-I got final result at around 5998 MAE loss, which would be around 37th on the leaderboard. However, claiming that is not completely valid cause competition does not allow submissions now nor does it give out the true labels of the test data, the loss which I get is split 20% of train data as test data at the start.
+I got final result at around 5971 MAE loss, which would be around 37th on the leaderboard. However, claiming that is not completely valid cause competition does not allow submissions now nor does it give out the true labels of the test data, the loss which I get is split 20% of train data as test data at the start.
 
 
 
